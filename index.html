@@ -20,6 +20,10 @@
         function HomePage() {
             const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton']
             const [likes, setLikes] = React.useState(0);
+            function handleClick() {
+            console.log("increment like count")
+            setLikes(likes + 1);
+        }
             return (
                 <div>
                     <Header title="Develop. Preview. Ship." />
@@ -32,10 +36,7 @@
                 </div>
             );
         }
-        function handleClick() {
-            console.log("increment like count")
-            setLikes(likes + 1);
-        }
+        
 
         const root = ReactDOM.createRoot(app);
         root.render(<HomePage />);
