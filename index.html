@@ -27,8 +27,12 @@
                             <li key={name}>{name}</li>
                         ))}
                         </ul>
+                        <button onClick={handleClick}>Like</button>
                 </div>
             );
+        }
+        function handleClick() {
+            console.log("increment like count")
         }
 
         const root = ReactDOM.createRoot(app);
