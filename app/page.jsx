@@ -19,7 +19,7 @@ import  LikeButton from './like-button';
        
 
         function HomePage() {
-            const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton']
+            const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
            
             
             return (
