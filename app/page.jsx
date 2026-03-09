@@ -1,6 +1,6 @@
 
 
-import  LikeButton from './like-button';
+import LikeButton from './like-button';
     
        function createTitle(title) {
         if (title) {
